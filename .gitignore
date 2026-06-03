@@ -1,0 +1,29 @@
+# These are the essential building blocks required for anyone else to clone, build, 
+# and run your application.
+
+# --> app/src/: Your entire application logic. This includes all Kotlin/Java source files, XML layouts, drawables, vector assets, and the AndroidManifest.xml file.
+
+# --> build.gradle.kts (or build.gradle): Both the project-level and app-level Gradle build scripts that define dependencies and plugins.
+
+# --> settings.gradle.kts (or settings.gradle): The file specifying which modules are included in the compilation.gradle.properties: Project-wide Gradle configuration settings.
+
+# --> gradle/wrapper/: The gradle-wrapper.jar and gradle-wrapper.properties files. These make sure anyone who clones the project uses the exact same Gradle version you used.
+
+# --> gradlew and gradlew.bat: Execution scripts enabling command-line Gradle execution on Linux/macOS and Windows without manual installations.
+
+
+*.iml
+.gradle
+/local.properties
+/06/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+*.DS_Store
+/build
+/captures
+*.externalNativeBuild
+*.cxx
+*local.properties
