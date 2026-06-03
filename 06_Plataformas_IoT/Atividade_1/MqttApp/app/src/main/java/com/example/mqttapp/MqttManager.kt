@@ -17,7 +17,12 @@ object MqttManager {
     private const val TAG = "MqttManager"
 
     // ── Blynk MQTT Configuration ──────────────────────────────────────────
-    private const val BROKER_URL = "The url of your mqtt project broker"
+    // This could be different regarding your project were allocated in Blynk cloud 
+    // Generally, it is tcp://<blynk-cloud-location-prefix>.blynk.cloud). 
+    // Here <blynk-cloud-location-prefix> = ny3
+    private const val BROKER_URL = "tcp://ny3.blynk.cloud"
+    
+     
     private const val AUTH_TOKEN = "Your device's OAuth Token from the Blynk IoT platform"
     private const val TEMPLATE_ID   = "Your device template ID"    // ✅ from your Blynk console
     private const val CLIENT_ID  = "Any name you want to give"
